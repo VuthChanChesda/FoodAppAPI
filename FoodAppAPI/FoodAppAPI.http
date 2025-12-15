@@ -1,0 +1,48 @@
+@rootUrl = https://localhost:7097
+@token = YOUR_JWT_TOKEN_HERE
+
+
+
+POST {{rootUrl}}/api/auth/register
+Content-Type: application/json
+{
+  "username": "testuser",
+  "email": "testuser@gmail.com",
+  "password": "123456"
+}
+###
+POST {{rootUrl}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "testuser@gmail.com",
+  "password": "123456"
+}
+
+###
+GET {{rootUrl}}/api/users
+Authorization: Bearer {{token}}
+Accept: application/json
+###
+
+GET {{rootUrl}}/api/users/1
+Authorization: Bearer {{token}}
+Accept: application/json
+
+###
+
+PUT {{rootUrl}}/api/users/1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "username": "updateduser",
+  "email": "updated@gmail.com"
+}
+
+###
+
+DELETE {{rootUrl}}/api/users/1
+Authorization: Bearer {{token}}
+
+

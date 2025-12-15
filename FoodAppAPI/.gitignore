@@ -1,0 +1,28 @@
+# Visual Studio
+*.user
+*.suo
+
+# Build folders
+bin/
+obj/
+Debug/
+Release/
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+
+# Logs
+*.log
+
+# EF Core snapshots (optional)
+Migrations/*.Designer.cs
+
+# Secrets
+appsettings.json
+*.pfx
+*.key
