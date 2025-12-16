@@ -24,8 +24,8 @@ namespace FoodAppAPI.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register(RegisterDto dto)
         {
-            if(dto == null)
-                return BadRequest("Invalid user data");
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
 
             if (await _context.Users.AnyAsync(u => u.Username == dto.Username))
                 return BadRequest("Username already taken");

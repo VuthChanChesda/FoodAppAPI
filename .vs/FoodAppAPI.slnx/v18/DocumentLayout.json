@@ -3,36 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\middleware\\authorizeowner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\middleware\\authorizeowner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\migrations\\foodappcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\migrations\\foodappcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\foodappapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\foodappapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\middleware\\authorizeowner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\middleware\\authorizeowner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\migrations\\foodappcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\migrations\\foodappcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\data\\foodappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,14 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,14 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\models\\wastelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\models\\wastelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\foodappapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|solutionrelative:foodappapi\\foodappapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFC37277-FAA1-637D-673B-ECB728DEE67F}|FoodAppAPI\\FoodAppAPI.csproj|c:\\users\\razer\\code\\flutterapi\\foodappapi\\foodappapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -138,11 +150,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "foodAppContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Migrations\\foodAppContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "FoodAppAPI\\Migrations\\foodAppContextModelSnapshot.cs",
@@ -151,46 +163,45 @@
               "ViewState": "AgIAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T14:00:24.158Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "FoodAppAPI\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "FoodAppAPI\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T14:48:43.933Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "FoodAppAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "FoodAppAPI\\Controllers\\UserController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAADwvzMAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T07:15:36.503Z",
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\.gitignore",
+              "RelativeDocumentMoniker": "FoodAppAPI\\.gitignore",
+              "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\.gitignore",
+              "RelativeToolTip": "FoodAppAPI\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-16T04:40:19.175Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthorizeOwner.cs",
-              "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Middleware\\AuthorizeOwner.cs",
-              "RelativeDocumentMoniker": "FoodAppAPI\\Middleware\\AuthorizeOwner.cs",
-              "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Middleware\\AuthorizeOwner.cs",
-              "RelativeToolTip": "FoodAppAPI\\Middleware\\AuthorizeOwner.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAYwEMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "FoodAppAPI\\Controllers\\ItemController.cs",
+              "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "FoodAppAPI\\Controllers\\ItemController.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAowIwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T08:27:46.491Z",
+              "WhenOpened": "2025-12-16T03:46:27.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "FoodAppAPI\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Models\\Category.cs",
+              "RelativeToolTip": "FoodAppAPI\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:19:54.746Z",
               "EditorCaption": ""
             },
             {
@@ -201,35 +212,48 @@
               "RelativeDocumentMoniker": "FoodAppAPI\\Dtos\\CategoryDto.cs",
               "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Dtos\\CategoryDto.cs",
               "RelativeToolTip": "FoodAppAPI\\Dtos\\CategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T15:03:35.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpdateUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Dtos\\UpdateUserDto.cs",
-              "RelativeDocumentMoniker": "FoodAppAPI\\Dtos\\UpdateUserDto.cs",
-              "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Dtos\\UpdateUserDto.cs",
-              "RelativeToolTip": "FoodAppAPI\\Dtos\\UpdateUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Dtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "FoodAppAPI\\Dtos\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Dtos\\RegisterDto.cs",
+              "RelativeToolTip": "FoodAppAPI\\Dtos\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T13:51:50.192Z",
+              "WhenOpened": "2025-12-15T07:57:15.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "FoodAppAPI\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Controllers\\AuthController.cs",
               "RelativeToolTip": "FoodAppAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCwAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-15T08:17:33.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FoodAppAPI.http",
+              "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\FoodAppAPI.http",
+              "RelativeDocumentMoniker": "FoodAppAPI\\FoodAppAPI.http",
+              "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\FoodAppAPI.http",
+              "RelativeToolTip": "FoodAppAPI\\FoodAppAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-11-23T13:17:04.334Z",
               "EditorCaption": ""
             },
             {
@@ -242,11 +266,88 @@
               "RelativeToolTip": "FoodAppAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-24T14:27:18.367Z"
+              "WhenOpened": "2025-11-24T14:27:18.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Dtos\\ItemDto.cs",
+              "RelativeDocumentMoniker": "FoodAppAPI\\Dtos\\ItemDto.cs",
+              "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Dtos\\ItemDto.cs",
+              "RelativeToolTip": "FoodAppAPI\\Dtos\\ItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T03:44:43.301Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "FoodAppAPI\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "FoodAppAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswDMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T07:15:36.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "FoodAppAPI\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "FoodAppAPI\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T14:48:43.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "FoodAppAPI\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Models\\Item.cs",
+              "RelativeToolTip": "FoodAppAPI\\Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:20:17.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthorizeOwner.cs",
+              "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Middleware\\AuthorizeOwner.cs",
+              "RelativeDocumentMoniker": "FoodAppAPI\\Middleware\\AuthorizeOwner.cs",
+              "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Middleware\\AuthorizeOwner.cs",
+              "RelativeToolTip": "FoodAppAPI\\Middleware\\AuthorizeOwner.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T08:27:46.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Dtos\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "FoodAppAPI\\Dtos\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Dtos\\UpdateUserDto.cs",
+              "RelativeToolTip": "FoodAppAPI\\Dtos\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T13:51:50.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\appsettings.Development.json",
               "RelativeDocumentMoniker": "FoodAppAPI\\appsettings.Development.json",
@@ -258,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "20251215152817_DeleteTestTable.cs",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Migrations\\20251215152817_DeleteTestTable.cs",
               "RelativeDocumentMoniker": "FoodAppAPI\\Migrations\\20251215152817_DeleteTestTable.cs",
@@ -270,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "foodAppContext.cs",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Data\\foodAppContext.cs",
               "RelativeDocumentMoniker": "FoodAppAPI\\Data\\foodAppContext.cs",
@@ -282,31 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Dtos\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "FoodAppAPI\\Dtos\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Dtos\\RegisterDto.cs",
-              "RelativeToolTip": "FoodAppAPI\\Dtos\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T07:57:15.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "FoodAppAPI\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Models\\Category.cs",
-              "RelativeToolTip": "FoodAppAPI\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T13:19:54.746Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "20251215144322_upateuser.cs",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Migrations\\20251215144322_upateuser.cs",
               "RelativeDocumentMoniker": "FoodAppAPI\\Migrations\\20251215144322_upateuser.cs",
@@ -318,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Models\\User.cs",
               "RelativeDocumentMoniker": "FoodAppAPI\\Models\\User.cs",
@@ -330,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "20251215142611_UpdateCategoryAndUser.cs",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Migrations\\20251215142611_UpdateCategoryAndUser.cs",
               "RelativeDocumentMoniker": "FoodAppAPI\\Migrations\\20251215142611_UpdateCategoryAndUser.cs",
@@ -342,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "20251215142123_UpdateCategory.cs",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Migrations\\20251215142123_UpdateCategory.cs",
               "RelativeDocumentMoniker": "FoodAppAPI\\Migrations\\20251215142123_UpdateCategory.cs",
@@ -354,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "20251215140757_UpdateCategory.cs",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Migrations\\20251215140757_UpdateCategory.cs",
               "RelativeDocumentMoniker": "FoodAppAPI\\Migrations\\20251215140757_UpdateCategory.cs",
@@ -366,19 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Models\\Item.cs",
-              "RelativeDocumentMoniker": "FoodAppAPI\\Models\\Item.cs",
-              "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Models\\Item.cs",
-              "RelativeToolTip": "FoodAppAPI\\Models\\Item.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T13:20:17.96Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "WasteLog.cs",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Models\\WasteLog.cs",
               "RelativeDocumentMoniker": "FoodAppAPI\\Models\\WasteLog.cs",
@@ -390,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Program.cs",
               "RelativeDocumentMoniker": "FoodAppAPI\\Program.cs",
@@ -402,19 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FoodAppAPI.http",
-              "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\FoodAppAPI.http",
-              "RelativeDocumentMoniker": "FoodAppAPI\\FoodAppAPI.http",
-              "ToolTip": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\FoodAppAPI.http",
-              "RelativeToolTip": "FoodAppAPI\\FoodAppAPI.http",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-11-23T13:17:04.334Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "JWTTokenHelper.cs",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Helpers\\JWTTokenHelper.cs",
               "RelativeDocumentMoniker": "FoodAppAPI\\Helpers\\JWTTokenHelper.cs",
@@ -426,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "FoodAppAPI\\Properties\\launchSettings.json",
@@ -438,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "20251215084341_AddUserRole.cs",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Migrations\\20251215084341_AddUserRole.cs",
               "RelativeDocumentMoniker": "FoodAppAPI\\Migrations\\20251215084341_AddUserRole.cs",
@@ -450,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Dtos\\LoginDto.cs",
               "RelativeDocumentMoniker": "FoodAppAPI\\Dtos\\LoginDto.cs",
@@ -462,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "20251209140933_FixWasteLogCascade.cs",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Migrations\\20251209140933_FixWasteLogCascade.cs",
               "RelativeDocumentMoniker": "FoodAppAPI\\Migrations\\20251209140933_FixWasteLogCascade.cs",
@@ -474,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "20251209141103_FixWasteLogCascade.cs",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Migrations\\20251209141103_FixWasteLogCascade.cs",
               "RelativeDocumentMoniker": "FoodAppAPI\\Migrations\\20251209141103_FixWasteLogCascade.cs",
@@ -486,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "20251209140334_FixCategoryFK.cs",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Migrations\\20251209140334_FixCategoryFK.cs",
               "RelativeDocumentMoniker": "FoodAppAPI\\Migrations\\20251209140334_FixCategoryFK.cs",
@@ -498,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "20251209140140_FixCategoryFK.cs",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Migrations\\20251209140140_FixCategoryFK.cs",
               "RelativeDocumentMoniker": "FoodAppAPI\\Migrations\\20251209140140_FixCategoryFK.cs",
@@ -510,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "20251209135818_FixCategoryFK.cs",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Migrations\\20251209135818_FixCategoryFK.cs",
               "RelativeDocumentMoniker": "FoodAppAPI\\Migrations\\20251209135818_FixCategoryFK.cs",
@@ -522,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "20251209135531_FixCategoryIdType.cs",
               "DocumentMoniker": "C:\\Users\\Razer\\code\\flutterApi\\FoodAppAPI\\FoodAppAPI\\Migrations\\20251209135531_FixCategoryIdType.cs",
               "RelativeDocumentMoniker": "FoodAppAPI\\Migrations\\20251209135531_FixCategoryIdType.cs",
