@@ -10,6 +10,10 @@ public class Item
     public Category Category { get; set; } = null!;
 
     public string ItemName { get; set; } = null!;
+
+    public string? ImageUrl { get; set; }   // save img url from cloud URL
+    public string? PublicId { get; set; }   // (for delete link and img from cloud)
+
     public int Quantity { get; set; }
     public bool IsShoppingList { get; set; }
     public DateTime? AddedDate { get; set; }

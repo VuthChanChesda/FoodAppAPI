@@ -17,6 +17,14 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddScoped<JwtTokenHelper>();
 
+//register cloudinary settings from appsettings.json
+builder.Services.Configure<CloudinarySettings>(
+    builder.Configuration.GetSection("Cloudinary")
+);
+
+//register photo helper service for dependency injection (for any other service we also need to register it here)
+builder.Services.AddScoped<PhotoHelper>();
+
 
 //tell that we use sql server and where to find connection string (which is in appsettings.json) 
 builder.Services.AddDbContext<foodAppContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));

@@ -11,6 +11,8 @@ namespace FoodAppAPI.Dtos
         [Required(ErrorMessage = "Item name is required.")]
         public string ItemName { get; set; } = null!;
 
+        public IFormFile? Image { get; set; }
+
         [Required(ErrorMessage = "Quantity is required.")]
         public int Quantity { get; set; }
 

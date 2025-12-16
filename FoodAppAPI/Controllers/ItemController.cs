@@ -14,10 +14,12 @@ namespace FoodAppAPI.Controllers
     public class ItemController : ControllerBase
     {
         private readonly foodAppContext _context;
+        private readonly PhotoHelper _photoHelper;
 
-        public ItemController(foodAppContext context)
+        public ItemController(foodAppContext context, PhotoHelper photoHelper)
         {
             _context = context;
+            _photoHelper = photoHelper;
         }
 
         [Authorize]
@@ -44,33 +46,47 @@ namespace FoodAppAPI.Controllers
 
         [Authorize]
         [HttpPost]
-        public async Task<IActionResult> CreateItem(ItemDto item)
+        public async Task<IActionResult> CreateItem([FromForm] ItemDto item)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
+
             var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
 
-            //Check if the Category exists and belongs to the user
+            // Check if the Category exists and belongs to the user
             var category = await _context.Categories.FindAsync(item.CategoryId);
             if (category == null)
                 return BadRequest($"Category with Id {item.CategoryId} does not exist.");
 
-            // Ensure the category belongs to the current user
             if (category.UserId != userId)
                 return Forbid(); // 403 Forbidden
 
+            string? imageUrl = null;
+            string? imagePublicId = null;
+
+            if (item.Image != null)
+            {
+                var uploadResult = await _photoHelper.UploadImageAsync(item.Image);
+                if (uploadResult?.Error != null)
+                    return BadRequest(uploadResult.Error.Message);
+
+                imageUrl = uploadResult.SecureUrl?.ToString();
+                imagePublicId = uploadResult.PublicId;
+            }
 
             var itemEntity = new Item
             {
                 ItemName = item.ItemName,
+                ImageUrl = imageUrl,
+                PublicId = imagePublicId,
                 CategoryId = item.CategoryId,
                 Quantity = item.Quantity,
                 IsShoppingList = item.IsShoppingList,
-                //if user dont provide date set to current date
-                AddedDate =  item.AddedDate ?? DateTime.UtcNow, 
+                AddedDate = item.AddedDate ?? DateTime.UtcNow,
                 ExpiryDate = item.ExpiryDate,
                 UserId = userId,
             };
+
             _context.Items.Add(itemEntity);
             try
             {
@@ -78,11 +94,27 @@ namespace FoodAppAPI.Controllers
             }
             catch (DbUpdateException ex)
             {
-                //Optional: catch other database exceptions
                 return BadRequest(ex.Message);
             }
-            return CreatedAtAction(nameof(GetItem), new { id = itemEntity.ItemId }, item);
+
+            // Return the entity with actual database values (including ItemId and uploaded image info)
+            var response = new
+            {
+                itemEntity.ItemId,
+                itemEntity.ItemName,
+                itemEntity.ImageUrl,
+                itemEntity.PublicId,
+                itemEntity.CategoryId,
+                itemEntity.Quantity,
+                itemEntity.IsShoppingList,
+                itemEntity.AddedDate,
+                itemEntity.ExpiryDate,
+                itemEntity.UserId
+            };
+
+            return CreatedAtAction(nameof(GetItem), new { id = itemEntity.ItemId }, response);
         }
+
 
         [Authorize]
         [AuthorizeOwner(typeof(Item), "UserId")]
