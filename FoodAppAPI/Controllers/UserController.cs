@@ -32,9 +32,8 @@ namespace FoodAppAPI.Controllers
             return Ok(await _context.Users.ToListAsync());
         }
 
-
-        [HttpGet("{id}")]
         [Authorize]
+        [HttpGet("{id}")]
         public async Task<ActionResult<User>> GetUserById(int id)
         {
             var userIdFromToken = int.Parse(User.FindFirstValue(JwtRegisteredClaimNames.Sub)!);
@@ -50,7 +49,7 @@ namespace FoodAppAPI.Controllers
 
 
         [Authorize]
-        [AuthorizeOwner]
+        [AuthorizeOwner(typeof(User), "UserId")]
         [HttpPut("{id}")]
         public async Task<ActionResult> UpdateUser(int id, UpdateUserDto updatedUser)
         {
