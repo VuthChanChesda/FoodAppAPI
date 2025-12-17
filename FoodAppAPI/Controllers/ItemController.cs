@@ -119,8 +119,11 @@ namespace FoodAppAPI.Controllers
         [Authorize]
         [AuthorizeOwner(typeof(Item), "UserId")]
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateItem(int id, ItemDto updatedItem)
+        public async Task<IActionResult> UpdateItem(int id, [FromForm] ItemDto updatedItem)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
             var existingItem = await _context.Items.FindAsync(id);
             if (existingItem == null)
             {
@@ -134,7 +137,34 @@ namespace FoodAppAPI.Controllers
 
             // Ensure the category belongs to the current user
             if (category.UserId != userId)
-                return Forbid(); // 403 Forbidden
+                return Forbid(); // 403 Forbidden\\
+
+            if (!string.IsNullOrEmpty(existingItem.PublicId) && updatedItem.Image == null)
+            {
+                // User wants to remove the existing image
+                await _photoHelper.DeleteImageAsync(existingItem.PublicId);
+                existingItem.ImageUrl = null;
+                existingItem.PublicId = null;
+            }
+
+
+            // 🔴 If user uploads a new image
+            if (updatedItem.Image != null)
+            {
+                // 1️⃣ Delete old image (if exists)
+                if (!string.IsNullOrEmpty(existingItem.PublicId))
+                {
+                    await _photoHelper.DeleteImageAsync(existingItem.PublicId);
+                }
+
+                // 2️⃣ Upload new image
+                var uploadResult = await _photoHelper.UploadImageAsync(updatedItem.Image);
+                if (uploadResult?.Error != null)
+                    return BadRequest(uploadResult.Error.Message);
+
+                existingItem.ImageUrl = uploadResult.SecureUrl?.ToString();
+                existingItem.PublicId = uploadResult.PublicId;
+            }
 
             existingItem.ItemName = updatedItem.ItemName;
             existingItem.CategoryId = updatedItem.CategoryId;
@@ -163,6 +193,10 @@ namespace FoodAppAPI.Controllers
             if (existingItem == null)
             {
                 return NotFound(); 
+            }
+            if (!string.IsNullOrEmpty(existingItem.PublicId))
+            {
+                await _photoHelper.DeleteImageAsync(existingItem.PublicId);
             }
             _context.Items.Remove(existingItem);
             await _context.SaveChangesAsync();
