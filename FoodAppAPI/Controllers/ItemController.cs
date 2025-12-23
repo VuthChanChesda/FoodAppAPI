@@ -22,16 +22,45 @@ namespace FoodAppAPI.Controllers
             _photoHelper = photoHelper;
         }
 
+        private static double CalculateExpiryProgress(DateTime? added, DateTime? expiry)
+        {
+            if (expiry == null)
+                return 0;
+
+            var addedDate = added ?? DateTime.UtcNow;
+            var total = (expiry.Value - addedDate).TotalSeconds;
+            if (total <= 0)
+                return 100;
+
+            var elapsed = (DateTime.UtcNow - addedDate).TotalSeconds;
+            var progress = elapsed / total;
+
+            return Math.Clamp(progress * 100, 0, 100);
+        }
+
+
         [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetItems()
         {
-            var userId = int.Parse(User.FindFirstValue(System.Security.Claims.ClaimTypes.NameIdentifier)!);
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
             var items = await _context.Items
                 .Where(i => i.UserId == userId)
+                .Select(i => new ItemResponseDto
+                {
+                    ItemId = i.ItemId,
+                    ItemName = i.ItemName,
+                    ImageUrl = i.ImageUrl,
+                    AddedDate = i.AddedDate,
+                    ExpiryDate = i.ExpiryDate,
+                    CategoryId = i.CategoryId,
+                    ExpiryProgress = CalculateExpiryProgress(i.AddedDate, i.ExpiryDate)
+                    
+                })
                 .ToListAsync();
-            return Ok(items);
-        }
+
+            return Ok(items); ;
+        } 
 
         [Authorize, HttpGet("{id}")]
         public async Task<IActionResult> GetItem(int id)
@@ -41,7 +70,18 @@ namespace FoodAppAPI.Controllers
                 .FirstOrDefaultAsync(i => i.ItemId == id && i.UserId == userId);
             if (item == null)
                 return NotFound();
-            return Ok(item);
+            return Ok(new
+            {
+                item.ItemId,
+                item.ItemName,
+                item.Quantity,
+                item.ImageUrl,
+                item.CategoryId,
+                item.IsShoppingList,
+                item.AddedDate,
+                item.ExpiryDate,
+                item.IsExpiredProcessed
+            });
         }
 
         [Authorize]
@@ -85,6 +125,7 @@ namespace FoodAppAPI.Controllers
                 AddedDate = item.AddedDate ?? DateTime.UtcNow,
                 ExpiryDate = item.ExpiryDate,
                 UserId = userId,
+                IsExpiredProcessed = false
             };
 
             _context.Items.Add(itemEntity);
@@ -110,6 +151,7 @@ namespace FoodAppAPI.Controllers
                 itemEntity.AddedDate,
                 itemEntity.ExpiryDate,
                 itemEntity.UserId
+                //itemEntiy.ExpiryProgress = CalculateExpiryProgress(itemEntity.AddedDate, itemEntity.ExpiryDate)
             };
 
             return CreatedAtAction(nameof(GetItem), new { id = itemEntity.ItemId }, response);
@@ -149,7 +191,7 @@ namespace FoodAppAPI.Controllers
 
 
             // 🔴 If user uploads a new image
-            if (updatedItem.Image != null)
+            if (updatedItem.Image != null) 
             {
                 // 1️⃣ Delete old image (if exists)
                 if (!string.IsNullOrEmpty(existingItem.PublicId))
@@ -172,6 +214,7 @@ namespace FoodAppAPI.Controllers
             existingItem.IsShoppingList = updatedItem.IsShoppingList;
             existingItem.AddedDate = updatedItem.AddedDate ?? existingItem.AddedDate;
             existingItem.ExpiryDate = updatedItem.ExpiryDate;
+            existingItem.IsExpiredProcessed = updatedItem.IsExpiredProcessed;
             try
             {
                 await _context.SaveChangesAsync();

@@ -1,0 +1,7 @@
+﻿namespace FoodAppAPI.Dtos
+{
+    public class WastedLog
+    
+
+    }
+}

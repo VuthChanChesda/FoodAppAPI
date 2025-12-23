@@ -91,7 +91,7 @@ namespace FoodAppAPI.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("WasteLogId"));
 
-                    b.Property<DateTime>("DateWasted")
+                    b.Property<DateTime?>("DateWasted")
                         .HasColumnType("datetime2");
 
                     b.Property<int>("ItemId")
@@ -118,7 +118,7 @@ namespace FoodAppAPI.Migrations
 
                     b.HasIndex("UserId1");
 
-                    b.ToTable("WasteLog");
+                    b.ToTable("WasteLogs");
                 });
 
             modelBuilder.Entity("Item", b =>
@@ -140,6 +140,9 @@ namespace FoodAppAPI.Migrations
 
                     b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsExpiredProcessed")
+                        .HasColumnType("bit");
 
                     b.Property<bool>("IsShoppingList")
                         .HasColumnType("bit");

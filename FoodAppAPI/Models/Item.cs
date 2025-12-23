@@ -18,5 +18,8 @@ public class Item
     public bool IsShoppingList { get; set; }
     public DateTime? AddedDate { get; set; }
     public DateTime? ExpiryDate { get; set; }
+
+    public bool IsExpiredProcessed { get; set; }
+
     public ICollection<WasteLog> WasteLogs { get; set; } = new List<WasteLog>();
 }

@@ -22,6 +22,10 @@ builder.Services.Configure<CloudinarySettings>(
     builder.Configuration.GetSection("Cloudinary")
 );
 
+//register expired item worker as hosted service to run in background
+//check every 5 minutes for expired items and log waste
+builder.Services.AddHostedService<ExpiredItemWorker>();
+
 //register photo helper service for dependency injection (for any other service we also need to register it here)
 builder.Services.AddScoped<PhotoHelper>();
 

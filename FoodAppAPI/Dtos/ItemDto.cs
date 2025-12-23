@@ -23,5 +23,10 @@ namespace FoodAppAPI.Dtos
 
         public DateTime? ExpiryDate { get; set; }
 
+
+        [Required(ErrorMessage = "IsExpiredProcessed is required.")]
+        public bool IsExpiredProcessed { get; set; }
+
+
     }
 }

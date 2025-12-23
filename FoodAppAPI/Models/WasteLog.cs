@@ -9,6 +9,6 @@
         public Item Item { get; set; } = null!;
         public int QuantityWasted { get; set; }
         public string Reason { get; set; } = null!;
-        public DateTime DateWasted { get; set; }
+        public DateTime? DateWasted { get; set; }
     }
 }
