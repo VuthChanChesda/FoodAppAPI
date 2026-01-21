@@ -48,6 +48,36 @@ namespace FoodAppAPI.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("Consumption", b =>
+                {
+                    b.Property<int>("ConsumptionId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ConsumptionId"));
+
+                    b.Property<int>("AmountConsumed")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("ConsumedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("ItemId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ConsumptionId");
+
+                    b.HasIndex("ItemId");
+
+                    b.ToTable("Consumption");
+                });
+
             modelBuilder.Entity("FoodAppAPI.Models.User", b =>
                 {
                     b.Property<int>("UserId")
@@ -180,6 +210,17 @@ namespace FoodAppAPI.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("Consumption", b =>
+                {
+                    b.HasOne("Item", "Item")
+                        .WithMany("Items")
+                        .HasForeignKey("ItemId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Item");
+                });
+
             modelBuilder.Entity("FoodAppAPI.Models.WasteLog", b =>
                 {
                     b.HasOne("Item", "Item")
@@ -238,6 +279,8 @@ namespace FoodAppAPI.Migrations
 
             modelBuilder.Entity("Item", b =>
                 {
+                    b.Navigation("Items");
+
                     b.Navigation("WasteLogs");
                 });
 #pragma warning restore 612, 618

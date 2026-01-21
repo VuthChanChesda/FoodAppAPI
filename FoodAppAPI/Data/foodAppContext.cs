@@ -18,6 +18,8 @@ namespace FoodAppAPI.Data
 
         public DbSet<WasteLog> WasteLogs { get; set; } = null!;
 
+        public DbSet<Consumption> Consumption { get; set; } = null!;
+
         // ---------------- Fluent API ----------------
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -19,7 +19,7 @@ namespace FoodAppAPI.Helpers
             while (!stoppingToken.IsCancellationRequested)
             {
                 await CheckExpiredItemsAsync();
-                await Task.Delay(TimeSpan.FromMinutes(5), stoppingToken); // every 5 minutes
+                await Task.Delay(TimeSpan.FromMinutes(1), stoppingToken); // every 5 minutes
             }
         }
 

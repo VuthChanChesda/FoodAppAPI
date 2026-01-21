@@ -10,6 +10,8 @@ namespace FoodAppAPI.Dtos
             [Required(ErrorMessage = "Category id is required.")]
             public int CategoryId { get; set; }
 
+            public string CategoryName { get; set; } = string.Empty;
+
             [Required(ErrorMessage = "Item name is required.")]
             public string ItemName { get; set; } = null!;
 

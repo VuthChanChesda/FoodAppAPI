@@ -1,4 +1,5 @@
-﻿using FoodAppAPI.Models;
+﻿using FoodAppAPI.Dtos;
+using FoodAppAPI.Models;
 
 public class Item
 {
@@ -22,4 +23,6 @@ public class Item
     public bool IsExpiredProcessed { get; set; }
 
     public ICollection<WasteLog> WasteLogs { get; set; } = new List<WasteLog>();
+    public ICollection<Consumption> Items { get; set; } = new List<Consumption>();
+
 }

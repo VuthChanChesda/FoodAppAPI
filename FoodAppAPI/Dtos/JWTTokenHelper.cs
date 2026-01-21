@@ -35,9 +35,8 @@ namespace FoodAppAPI.Helpers
                 issuer: _config["Jwt:Issuer"],
                 audience: _config["Jwt:Audience"],
                 claims: claims,
-                expires: DateTime.Now.AddMinutes(
-                    int.Parse(_config["Jwt:ExpireMinutes"]!)
-                ),
+                // This sets the expiration to exactly 365 days from this moment
+                expires: DateTime.Now.AddDays(365),
                 signingCredentials: creds
             );
 
