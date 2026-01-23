@@ -222,8 +222,7 @@
               "RelativeToolTip": "FoodAppAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T14:38:49.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T14:38:49.737Z"
             },
             {
               "$type": "Document",
@@ -247,8 +246,7 @@
               "RelativeToolTip": "FoodAppAPI\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-15T08:17:33.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T08:17:33.472Z"
             },
             {
               "$type": "Document",
@@ -273,8 +271,7 @@
               "RelativeToolTip": "FoodAppAPI\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-15T15:27:14.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-15T15:27:14.546Z"
             },
             {
               "$type": "Document",
@@ -286,8 +283,7 @@
               "RelativeToolTip": "FoodAppAPI\\Helpers\\GeminiAiService.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T03:02:39.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T03:02:39.89Z"
             },
             {
               "$type": "Document",
@@ -299,8 +295,7 @@
               "RelativeToolTip": "FoodAppAPI\\Data\\foodAppContext.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAwwAoAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T14:30:29.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T14:30:29.955Z"
             },
             {
               "$type": "Document",
@@ -312,8 +307,7 @@
               "RelativeToolTip": "FoodAppAPI\\Dtos\\InsightDataDto\\CategoryWasteDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T14:39:17.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T14:39:17.781Z"
             },
             {
               "$type": "Document",
@@ -325,8 +319,7 @@
               "RelativeToolTip": "FoodAppAPI\\Controllers\\ItemController.cs",
               "ViewState": "AgIAABABAAAAAAAAAAAiwCMBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-16T03:46:27.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-16T03:46:27.527Z"
             },
             {
               "$type": "Document",
@@ -338,8 +331,7 @@
               "RelativeToolTip": "FoodAppAPI\\Controllers\\AnalyticsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T14:41:45.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T14:41:45.515Z"
             },
             {
               "$type": "Document",
