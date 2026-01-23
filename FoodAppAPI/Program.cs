@@ -27,9 +27,10 @@ builder.Services.AddHttpClient<OpenRouterService>();
 builder.Services.AddHttpClient<HuggingFaceService>();
 builder.Services.AddHttpClient<GeminiAiService>();
 
-// Database
+
+
 builder.Services.AddDbContext<foodAppContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Authentication & Authorization
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)

@@ -8,6 +8,7 @@ namespace FoodAppAPI.Data
         public foodAppContext (DbContextOptions<foodAppContext> options)
             : base(options)
         {
+            AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
         }
 
         public DbSet<User> Users { get; set; } = null!;
